@@ -1,2 +1,2 @@
 # MedLLM
-Le projet vise à mettre en place un Chatbot pour la préconsultation dans le domaine des soins de santé. Ce Chatbot  interagira avec les patients à travers du texte, de l’audio et des images, en s'appuyant sur un agent LLM (Large Language Model) pour fournir des conseils initiaux .
+The project aims to implement a Chatbot for pre-consultation in healthcare. This Chatbot will interact with patients through text, audio and images, relying on an LLM (Large Language Model) agent to provide initial advice .
