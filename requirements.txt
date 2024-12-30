@@ -11,7 +11,7 @@ SpeechRecognition
 gtts
 pydub
 gradio
-requets
+requests
 # torch 
 torchvision
 timm 
