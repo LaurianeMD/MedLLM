@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Mic, Camera, Send, AlertTriangle } from "lucide-react";
 
-const MediBot = () => {
+const MedBot = () => {
   const [messages, setMessages] = useState([
     { role: "assistant", content: "Bonjour ! Comment puis-je vous aider aujourd'hui ?" }
   ]);
@@ -203,4 +203,4 @@ const MediBot = () => {
   );
 };
 
-export default MediBot;
+export default MedBot;

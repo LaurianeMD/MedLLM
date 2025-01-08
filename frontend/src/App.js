@@ -1,10 +1,10 @@
 import React from 'react';
-import MediBot from './components/MedBot'; // Si MediBot est dans `src/components/MediBot.js`
+import MedBot from './components/MedBot'; // Si MediBot est dans `src/components/MediBot.js`
 
 function App() {
   return (
     <div className="App">
-      <MediBot />
+      <MedBot />
     </div>
   );
 }
