@@ -107,7 +107,7 @@ import soundfile as sf
 import logging
 
 # Initialisation de l'application FastAPI
-app = FastAPI(title="MediBot API")
+app = FastAPI(title="MedBot API")
 
 # Configuration des CORS
 app.add_middleware(
@@ -123,6 +123,7 @@ logging.basicConfig(level=logging.INFO)
 
 # Initialisation des pipelines
 translator = pipeline("translation", model="facebook/nllb-200-distilled-600M")
+# medical_model = pipeline("text-generation", model="LaurianeMD/MedLlama3.2-3B-V2")
 medical_model = pipeline("text-generation", model="SumayyaAli/tiny-llama-1.1b-chat-medical")
 asr_model = pipeline("automatic-speech-recognition", model="openai/whisper-small")
 narrator_fr = pipeline("text-to-speech", model="facebook/mms-tts-fra")

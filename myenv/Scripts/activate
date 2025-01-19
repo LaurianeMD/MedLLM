@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\DELL\Documents\NEWS\PROJETCS\MedLLM\myenv"
+VIRTUAL_ENV="C:\Users\DELL\Documents\NEWS\MASTER\MedLLM\myenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
